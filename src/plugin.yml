@@ -2,17 +2,21 @@ name: ServerSystem
 version: A1.0
 author: PixelTeleV
 
-main: ch.PixelTV.Main.Main
+main: ch.pixeltv.main.main
 
 commands:
   fly:
   gm:
     aliases: [gamemode]
-  tpa:
-  tpaccept:
-  tpdeny:
   spawn:
   enderchest:
     aliases: [ec]
   workbench:
     aliases: [wb]
+  tpa:
+  tpaccept:
+  tpdeny:
+  suicide:
+  invsee:
+  msg:
+  skull:

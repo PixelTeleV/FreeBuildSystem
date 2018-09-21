@@ -1,6 +1,6 @@
-package ch.PixelTV.Commands;
+package ch.pixeltv.commands;
 
-import ch.PixelTV.Main.Main;
+import ch.pixeltv.main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

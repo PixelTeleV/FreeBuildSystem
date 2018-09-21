@@ -1,7 +1,7 @@
-package ch.PixelTV.Main;
+package ch.pixeltv.main;
 
-import ch.PixelTV.Commands.*;
-import ch.PixelTV.Listeners.*;
+import ch.pixeltv.commands.*;
+import ch.pixeltv.listeners.*;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
@@ -35,9 +35,9 @@ public class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage("§a§lPlugin activated!");
         Bukkit.getConsoleSender().sendMessage("§b§m------------------");
 
-        //Listeners Vereinfachung
+        //listeners Vereinfachung
         PluginManager pm = Bukkit.getPluginManager();
-        //Listeners
+        //listeners
         pm.registerEvents(new Unknown(), this);
         pm.registerEvents(new Reload(), this);
         pm.registerEvents(new CmdBlocker(), this);
@@ -45,12 +45,16 @@ public class Main extends JavaPlugin {
         pm.registerEvents(new Quit(), this);
 
 
-        //Commands
+        //commands
         getCommand("fly").setExecutor(new Fly());
         getCommand("gamemode").setExecutor(new GameMode());
         getCommand("spawn").setExecutor(new Spawn());
         getCommand("enderchest").setExecutor(new EnderChest());
         getCommand("workbench").setExecutor(new WorkBench());
+        getCommand("msg").setExecutor(new Msg());
+        getCommand("suicide").setExecutor(new Suicide());
+        getCommand("skull").setExecutor(new Skull());
+        getCommand("invsee").setExecutor(new InvSee());
 
         //Tpa Befehle (/tpa) - Anfrage ; (/tpaccept) - Annehmen ; (/tpdeny) - Ablehnen
         getCommand("tpa").setExecutor(new Tpa());

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="ServerSystem">
-    <output-path>$USER_HOME$/Desktop/MC-Programmieren/Minecraft/Test-Server/plugins</output-path>
-    <root id="archive" name="ServerSystem.jar">
-      <element id="module-output" name="ServerSystem" />
-    </root>
-  </artifact>
-</component>

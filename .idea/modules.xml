@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ServerSystem.iml" filepath="$PROJECT_DIR$/ServerSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FreeBuildSystem.iml" filepath="$PROJECT_DIR$/FreeBuildSystem.iml" />
     </modules>
   </component>
 </project>
